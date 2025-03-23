@@ -26,7 +26,7 @@ python real_time_object_detection.py
 ## Model and Configuration Files
 Ensure the following files are present:
 - `MobileNetSSD_deploy.prototxt.txt` (Model architecture definition)
-- `MobileNetSSD_deploy.caffemodel` (Pre-trained model weights)
+- `MobileNetSSD_deploy.caffemodel` (trained model weights)
 
 ## Controls
 - Press `q` to quit the program.
