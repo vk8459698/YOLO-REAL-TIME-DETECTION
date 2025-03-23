@@ -43,10 +43,6 @@ The model can detect:
 - Cat
 - And many more (see `CLASSES` list in the code)
 
-## License
-This project is for educational purposes. Model weights belong to their respective authors.
-
 ---
 ### Author
-Your Name
-
+Vivek Kumar
