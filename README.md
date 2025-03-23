@@ -17,7 +17,7 @@ python real_time_object_detection.py
 ```
 
 ## How It Works
-1. Loads the pre-trained **MobileNet SSD** model.
+1. Loads the trained **MobileNet SSD** model.
 2. Captures video frames from the webcam.
 3. Preprocesses frames and runs them through the neural network.
 4. Identifies objects and draws bounding boxes with labels and confidence scores.
