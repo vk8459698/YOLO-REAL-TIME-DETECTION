@@ -20,16 +20,7 @@ You can find a full list of what YOLO trained on the COCO dataset can detect <a 
 
 - yolo-coco : The YOLOv3 object detector pre-trained (on the COCO dataset) model files. These were trained by the <a href="https://pjreddie.com/darknet/yolo/" target="_blank"> <b>Darknet team.</b> </a>
 
-## YOLO object detection in images
 
-## Installation
-
-- `pip install numpy`
-- `pip install opencv-python`
-
-## To Run the project
-
-- `python yolo.py --image images/baggage_claim.jpg`
 
 ## Screenshots
 ![Image](/Object%20dection%20using%20image/1.png)
@@ -42,24 +33,6 @@ Furthermore, if you take a look at the right corner of the image you’ll see th
 
 YOLO is able to correctly detect each of the players on the pitch, including the soccer ball itself. Notice the person in the background who is detected despite the area being highly blurred and partially obscured.
 
-## YOLO object detection in video streams
-
-## Installation
-
-- `pip install numpy`
-- `pip install opencv-python`
-
-## To Run the project
-
-- `python yolo_video.py --input videos/airport.mp4 --output output/airport_output.avi --yolo yolo-coco`
-
-## Screenshots
-
-<img src="https://github.com/yash42828/YOLO-object-detection-with-OpenCV/blob/master/Object%20detection%20using%20video/car.gif">
-
-In the video/GIF, you can see not only the vehicles being detected, but people, as well as the traffic lights, are detected too!
-
-The YOLO object detector is performing quite well here. 
 
 ## Limitation:
 ### Arguably the largest limitation and drawback of the YOLO object detector is that:
